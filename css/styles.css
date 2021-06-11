@@ -1,0 +1,255 @@
+#title{
+    background-color: #ff4c68;
+    
+}
+.heading{
+    
+    
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: white;
+    font-family: 'Montserrat-Black', sans-serif;
+    text-align: left;
+    margin-left: 9.5%;
+    
+}
+.container-fluid{
+    
+    padding-right:  15%;
+    padding-left: 15%;
+    padding-top: 3%;
+    padding-bottom: 7%;
+    font-family: 'Montserrat-Black', sans-serif;
+    
+   
+}    
+/* navbar */
+.navbar-brand{
+    
+    font-size: 2.5rem;
+    font-family  :'Ubuntu' , sans-serif;
+    font-weight: bolder;
+}
+.navbar{
+    padding: 3rem 3rem 0;
+}
+.nav-item{
+    padding: 1px 18px;
+}
+.nav-link{
+    font-size: 1.25rem;
+    font-family: 'Montserrat-Light',sans-serif;
+}
+/* download button */
+.download-btn{
+    margin: 5% 3% 5% 0%;
+}
+/* title image */
+.title-img{
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+    top: 7%;
+   
+}
+
+
+/* features */
+.row{
+        
+    text-align: center;
+
+}
+.iconf{
+    margin-bottom:1rem; 
+    margin-top: 1rem;
+    width: 15%;
+    color: #ef8172;
+    
+
+}
+.iconf:hover{
+    color: #ff4c68;
+}
+
+p{
+    width: 55%;
+    margin: 3% 25%  ;
+    color: #8f8f8f;
+    
+}
+h3{
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+#features{
+    background-color: white;
+  z-index: 1;
+   position: relative;
+    padding: 7% 13%;
+   
+}
+
+/* testimonals */
+
+#testimonials{
+    padding-right: 0%;
+}
+
+#carouselExampleControls{
+    background-color: #ef8172;
+}
+.testimonial-image{
+    border-radius: 50%;
+    width:10% ;
+    height: 10%;
+   
+}
+.carousel-item{
+    text-align: center;
+}
+.testimonial-text{
+    width: 45%;
+    margin: 5% 13% 5% 25%;
+    font-family: 'Montserrat-Bold', sans-serif;
+    color: white; 
+    line-height: 1.5;
+    
+}
+em{
+    color: white;
+    padding-left: 5px;
+    font-family: 'Montserrat-Light',sans-serif;
+}
+/* press */
+#press{
+    background-color: #ef8172;
+    padding-left: 10%;
+    padding-right: 10%;
+        
+}
+.images{
+    margin-left: 15%;
+}
+.press-img{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding-left: 2%;
+    padding-right:2% ;
+    
+}
+.techcrunch{
+    width: 18%;
+}
+.tnw{
+    width: 20%;
+}
+.bizinsider{
+    width: 25%;
+}
+.mashable{
+    width: 18%;
+}
+
+/* pricing */
+
+.price-head{
+    text-align: center;
+    margin-top:  5%; ;
+    font-weight: bolder;
+    font-family: 'Montserrat-Bold',sans-serif;
+    font-size: 45px; 
+}
+.price-subhead{
+    text-align: center;
+    margin-top: 1%;
+    margin-left: 23%;
+}
+
+ .box-header{
+    background-color: rgba(0,0,0,.03);;
+    font-family: 'Montserrat-Bold',sans-serif;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border-bottom:  1px solid rgba(0,0,0,.125);
+    border-radius: 4px;
+    font-size: 20px;
+    font-weight: bolder;
+    
+    
+}
+
+.content{
+    border: 1px solid rgba(0,0,0,.125);
+    width: 77%;
+    margin-left: 10%;
+    margin-top: 0;
+    border-radius: 4px;
+    padding-bottom: 3%;
+    font-family: 'Montserrat-Light',sans-serif;
+    line-height: 2;
+    
+} 
+.text{
+    font-size: 40px;
+    font-weight: bolder;
+    padding-top: 2%;
+}
+.col-lg-4{
+    padding:2%;
+}
+.btn-block{
+    margin-left:15px ;
+    width: 90%;
+}
+.price{
+    margin-top: 5%;
+}
+/* call to action */
+
+#cta{
+    background-color: #ff4c68;
+    padding-top: 8%;
+    padding-bottom: 5%;
+    text-align: center;
+}
+.cta-text{
+    font-family: 'Montserrat-Black',sans-serif;
+    color: white;
+    padding-bottom: 5%;
+    font-size: 50px;
+    width:78%;
+    padding-left: 19%;
+    font-weight: bolder;
+}
+/* footer */
+
+#footer{
+    background-color: #fff;
+    padding-top: 8%;
+    padding-bottom: 6%;
+    text-align: center;
+}
+.social-media{
+  margin-left: 10px;
+  margin-right: 10px;
+  
+}
+.cpryt{
+    margin-left:23%;
+    margin-top: 2%;
+}
+
+/* media queries */
+
+@media(max-width:1170px){
+    .heading{
+        text-align: center;
+    }
+    .title-img{
+        transform: rotate(0);
+        position: static;
+    }
+}
